@@ -1,0 +1,23 @@
+
+.carousel .carousel-item {
+    max-height: calc(100vh - 150px);
+}
+
+@media (max-width: 530px) {
+    .carousel .carousel-item {
+        height: 450px;
+    }
+}
+
+.background {
+    filter: brightness(20%);
+}
+
+.pic-slider {
+    max-height: 200px;
+    filter: 200%;
+}
+
+section:nth-child(even) {
+    background-color: #F8F9FA;
+}
